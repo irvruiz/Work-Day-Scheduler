@@ -22,4 +22,25 @@ timeBlockDiv.append(hoursDiv).append(textArea).append(saveBtn);
     } else {
         textArea.addClass("future");
     }
+
+// Creating time block for each hour
+function init(){
+    for(let i=8; i<=17; i++)
+    };
+    $(".saveBtn").on("click", function(){
+        var id = $(this).siblings("textarea").attr("id");
+        var events = $(this).siblings("textarea").val();
+        localStorage.setItem(id, events);
+        console.log(id);
+        console.log(events);
+        console.log("connected");
+    });
+    $(".description").each(function(){
+        var id = $(this).attr("id");
+        var storedEvent = localStorage.getItem(id);
+        $(this).val(storedEvent);
+    });
+    };
     
+    //  init function when the page is loaded
+    $(document).ready(init());

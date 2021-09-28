@@ -23,5 +23,5 @@ WHEN I refresh the page
 THEN the saved events persist
 
 ## Mock-Up
-```
-![](https://github.com/irvruiz/Work-Day-Scheduler/blob/main/05-third-party-apis-homework-demo.gif)
+
+![](./Coding-bootcamp/homework/homework5/05-third-party-apis-homework-demo)

@@ -24,4 +24,4 @@ THEN the saved events persist
 
 ## Mock-Up
 ```
-![](C:\Users\irvin\Documents\Coding bootcamp\homework\homework5\05-third-party-apis-homework-demo.gif)
+![](https://github.com/irvruiz/Work-Day-Scheduler/blob/main/05-third-party-apis-homework-demo.gif)

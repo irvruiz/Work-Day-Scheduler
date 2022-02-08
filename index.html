@@ -4,22 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
-    <link rel="javascript" href="script.js">
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,14 +19,79 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container" id="calendar">
-      <!-- Timeblocks go here -->
-      <div id="time-blocks">
+    
 
+    <!-- timeblocks -->
+    <div class="container">
+      <div class="input-group">
+        <div class ="time-block">9am</div>
+        <input type="text" class="form-control" name="nineAM" id="0" aria-label="Hourly Agenda Input" aria-describedby="button-addon2">
+        <div class="input-group-append" id="nineAMM">
+          <button class="btn btn-info" type="button" id="button-addon2">Save</button>
+        </div>
       </div>
+      <div class="input-group">
+        <div class ="time-block pr">10am</div>
+        <input type="text" class="form-control" id="1" aria-label="Hourly Agenda Input" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-info" type="button" id="button-addon2 btn1">Save</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <div class ="time-block pr">11am</div>
+        <input type="text" class="form-control" id="2" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-info" type="button" id="button-addon2 btn3">Save</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <div class ="time-block pr">12pm</div>
+        <input type="text" class="form-control" id="3" aria-label="Recipient's username" aria-describedby="button-addon2 btn4">
+        <div class="input-group-append">
+          <button class="btn btn-info" type="button" id="button-addon2">Save</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <div class ="time-block">1pm</div>
+        <input type="text" class="form-control" id="4" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-info" type="button" id="button-addon2">Save</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <div class ="time-block">2pm</div>
+        <input type="text" class="form-control" id="5" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-info" type="button" id="button-addon2 btn5">Save</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <div class ="time-block">3pm</div>
+        <input type="text" class="form-control" id="6" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-info" type="button" id="button-addon2 btn6">Save</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <div class ="time-block">4pm</div>
+        <input type="text" class="form-control" id="7" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-info" type="button" id="button-addon2 btn7">Save</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <div class ="time-block">5pm</div>
+        <input type="text" class="form-control" id="8" aria-label="Recipient's username" aria-describedby="button-addon2 btn8">
+        <div class="input-group-append">
+          <button class="btn btn-info" type="button" id="button-addon2">Save</button>
+        </div>
+      </div>
+
     </div>
+    <!-- Javascript script links -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
